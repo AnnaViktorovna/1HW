@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+ }
+ .containerBig {
+    max-width: 1440px;
+    margin: 0 auto;
+ }
+
+ .header {
+    background-color: yellow;
+    height: 12px;
+    width: 100%;
+    display: flex;
+    align-items: space-between;
+}
+
+ .container {
+   background-color:  rgb(104, 221, 182);
+   height: 120px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
+
+.list {
+    list-style: none;
+}
+
+.logoList {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    z-index: 10;
+ }
+
+ .logoList li:first-child {
+    margin-right: 40px;
+ }
+
+.circleLg, .circleSm {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+ }
+
+ .circleSm {
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    
+ }
+
+ .circleLg {
+    background-color: yellow;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+ }
+
+  .logo {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 100, 206);
+}
+
+.logoIn {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./img/O1pYrlsOQx2c6Sl0qYYu5A.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.name {
+    text-decoration: double;
+    text-transform: uppercase;
+    color: rgb(14, 100, 206);
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+ .specialization {
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    margin-top: 15px;
+    font-size: large;
+ }
+
+ table.layout {
+    width: 100%;
+    border: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(245,222, 179, 0.8);
+    border-right: 1px solid white;
+}
+
+.left {
+    width: 30%; 
+    margin-left: 40px;
+    border-right: 3px solid white
+}
+
+.right {
+    width: 35%; 
+}
+
+.left, .right {
+    padding: 40px 60px;
+    vertical-align: top;
+}
+
+
+.edList {
+    width: 100%;
+    text-decoration: none;
+    text-align: justify;
+    list-style: none;
+    font-weight: 900;
+}
+
+ .edList li {
+    margin-bottom: 10px;
+    list-style: none;
+    letter-spacing: 1px
+ }
+
+ .skillList {
+    margin-bottom: 10px;
+    list-style: none;
+    text-decoration: none;
+    text-align: justify;
+    color: rgb(14, 100, 206);
+    font-weight: 900;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.skillList li {
+    margin-bottom: 15px;
+}
+
+h3 {
+    text-transform: uppercase; 
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h3::after {
+    content: '';
+    background-color: white;
+    height: 3px;
+    display: block;
+    margin-top: 20px;
+}
+
+.content {
+    width: 90%;
+}
+
+.edList li a {
+    color: rgb(14, 100, 206);
+}
+
+table.list tr td:first-child {
+    width: 170px;
+    font-weight: bold;
+}
+
+table.list td {
+    padding-bottom: 20px;
+}
+
+table.list td {
+    padding-bottom: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.list-img {
+    width: 40px;
+    height: 40px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.list a {
+    color: rgb(14, 100, 206);
+}
